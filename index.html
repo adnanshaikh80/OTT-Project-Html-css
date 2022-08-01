@@ -1,60 +1,97 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Netflix</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/NetflixIcon.ico" type="image/x-icon" />
+    <title>My Netflix</title>
+  </head>
+  <body>
     <section class="container">
-        <div class="head">
-            <img src="logo.png" alt="logo" width="13%">
-            <a href="https://www.google.co.in/">Sign in</a>
-        </div>
-
+      <div class="head">
+        <img src="logo.png" alt="logo" />
+        <a href="https://www.google.com/">Sign In</a>
+      </div>
     </section>
     <section class="banner">
-        <img src="bgimg.jpg" alt="background image" class="fit">
-        <div class="box">
-            <div class="heading">
-                <h2>Unlimited movies, TV shows and more. </h2>
-                <h5> Watch anywhere. Cancel anytime.</h5>
-                <p> Ready to watch? Enter your email to create or restart your membership.</p>
-                <div class="Email">
-                    <input type="text" placeholder=" Email Address">
-                    <a href="#"> Get Started ></a>
-                </div>
-            </div>
+      <img src="bgimg.jpg" alt="backgroud Image" class="fit" />
+      <div class="box">
+        <div class="heading">
+          <h2>Unlimited movies, TV shows and more.</h2>
+          <h5>Watch anywhere. Cancel anytime.</h5>
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
         </div>
+        <div class="Email">
+          <input type="text" placeholder="Email address" />
+          <a href="#">Get Started ></a>
+        </div>
+      </div>
     </section>
-    <section>
-        <div class="card-1">
-            <div class="desc-1">
-                <h1>Enjoy on your TV.</h1>
-                <p>Watch on smart TVs, PlayStation, Xbox,
-                    Chromecast, Apple TV, Blu-ray players and more.</p>
-            </div>
-            <div class="media-1">
-                <img src="assests/tv.png" alt="tv1">
-                <video class="video-1" autoplay="" muted="" loop="">
-                    <source src="assests/vid2.m4v" type="video/mp4">
-                </video>
-            </div>
+    <section class="style-cards">
+      <div class="card-1">
+        <div class="desc-1">
+          <h1>Enjoy on your TV.</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
         </div>
-        <div class="card-2">
+        <img src="assests/tv.png" alt="tv1" />
+        <video class="video-1" autoplay="" muted="" loop="">
+          <source src="assests/vid2.m4v" type="video/mp4" />
+        </video>
+      </div>
 
+      <div class="card-2">
+        <img src="assests/mobile.jpg" alt="gifFile" />
+        <div class="desc-2">
+          <h1>Download your shows to watch offline.</h1>
+          <p>Save your favourites easily and always have something to watch.</p>
         </div>
-        <div class="card-3">
 
-        </div>
-        <div class="card-4">
+        <div class="downloading">
+          <img class="small" src="assests/STimg.png" alt="StrangeImg" />
+          <h1>Stranger Things <span> Downloading... </span></h1>
 
+          <span>
+            <img
+              class="icon"
+              src="assests/download-icon.gif"
+              alt="download-icon"
+            />
+          </span>
+        </div>       
+      </div>
+
+      <div class="card-3">
+        <div class="desc-3">
+          <h1>Watch everywhere.</h1>
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
         </div>
+        <img src="assests/mac.png" alt="tv2" />
+        <video class="video-2" autoplay="" muted="" loop="">
+          <source src="assests/vid1.m4v" type="video/mp4" />
+        </video>
+      </div>
+      <div class="card-4">
+        <img src="assests/kids.png" alt="children" />
+        <div class="desc-4">
+          <h1>Create profiles for children.</h1>
+          <p>
+            Send children on adventures with their favourite characters in a
+            space made just for them—free with your membership.
+          </p>
+        </div>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
