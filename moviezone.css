@@ -1,5 +1,99 @@
 /* moviezone.css */
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
 .head img{
     /* position: relati ve; */
-    width: 10%;
+    width: 15%;
+}
+
+.home-image{
+    background-image: url(assests/hoome.jpg);
+    width: 98%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+    margin-bottom: 12px;
+
+}
+
+.home-image-text{
+    color: white;
+    position: relative;
+    width: 30%;   
+    top: 13em; 
+    left: 3em;
+    z-index: 10;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+.play-button{
+    background-color: red;
+    color: black; 
+    width: 70px;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 5px 20px 0px;
+}
+
+.play-button img{
+    width: 25px;
+    position: absolute;
+    padding-left: 5px;
+}
+
+.original{
+    color: white;
+    padding-left: 5px;
+}
+.original h3{
+    margin-top: 5px;
+}
+
+.original .no{
+    display: flex;
+    height: 45vh;
+    padding-top: 5px;
+    margin-left: 0px;
+    overflow-y: hidden;
+}
+
+.original .no img{
+    width: 160px;
+    height: 280px;
+    margin: 3px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.original .no img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(255, 72, 0);
+    background: transparent;
 }
