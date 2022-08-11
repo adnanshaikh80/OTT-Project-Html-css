@@ -96,7 +96,7 @@ img {
 	/* margin-bottom: 20px; */
 }
 
-.formm .info .email {
+.formm .info .username {
 	margin-bottom: 30px;
 	width: 100%;
 	height: 50px;
@@ -153,8 +153,8 @@ input[type=checkbox] {
 	margin-right: 5px;
 }
 
-input[type=email] {
-	background: #343434;
+input[type=username] {
+	background: #353535;
 }
 
 input[type=password] {

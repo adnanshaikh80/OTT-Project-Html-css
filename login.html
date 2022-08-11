@@ -22,12 +22,14 @@
                 <form>
                     <h1>Sign In</h1>
                     <div class="info">
-                        <input class="email" type="email" placeholder="Email or phone number"> <br>
-                        <input class="email" type="password" placeholder="Password">
+                        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">
+                        <input class="username" type="username" placeholder="Email or phone number"><br>
+                        <input class="username" type="password" placeholder="Password">
                     </div>
                     <div class="btn">
                         <button class="btn-primary" type="submit">Sign In</button>
                     </div>
+                    </form>
                     <div class="help">
                         <div>
                             <input value="true" type="checkbox"><label>Remember me</label>
