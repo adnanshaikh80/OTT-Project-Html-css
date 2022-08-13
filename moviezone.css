@@ -9,8 +9,9 @@ body{
 }
 
 .head img{
-    /* position: relati ve; */
     width: 15%;
+    padding-top: 5px;
+    padding-left: 20px;
 }
 
 .home-image{
