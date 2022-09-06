@@ -258,8 +258,17 @@ body{
 }
 
 .desc-4 {
-    padding-left: 80px;
-    /* margin-left: 5%; */
+    padding-left: 80px;   
+}
+.desc-4 a{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #E50914;
+    padding: 8px 15px;
+    border-radius: 5px;
+    position: absolute;
+    align-items: bottom;
+    bottom: 50px;
 }
 
 .card-4 img{
